@@ -1,0 +1,11 @@
+name: DeathSwap
+version: 1.0
+author: SargeAlpha
+main: com.sargealpha.Main
+description: A simple Death Swap plugin.
+
+commands:
+  dsstart:
+    description: Starts Death Swap.
+  dsend:
+    description: Forces a Death Swap session to end.
