@@ -28,7 +28,9 @@ public class SwapTask extends BukkitRunnable {
             case BOTH_ALIVE:
                 break;
         }
-
+        if (swapper.getTime() > 0 && swapper.getTime() <= 10) {
+            swapper.sendTimeRemaining();
+        }
         if (swapper.getTime() <= 0) {
             swapper.swap();
             //SwapTask task = new SwapTask(plugin, swapper);

@@ -64,6 +64,7 @@ public class Swapper {
         if (!(currentTask.isCancelled())) {
             currentTask.cancel();
         }
+        this.timer = TIME_PER_ROUND;
         currentTask = new SwapTask(plugin, this);
         currentTask.runTaskTimer(plugin, 20, 20);
     }

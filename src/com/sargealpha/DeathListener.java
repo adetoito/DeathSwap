@@ -12,6 +12,14 @@ public class DeathListener implements Listener {
         this.swapper = swapper;
     }
 
+    public boolean changeSwapper(Swapper swapper) {
+        if (swapper == null) {
+            return false;
+        }
+        this.swapper = swapper;
+        return true;
+    }
+
     @EventHandler
     public void onDeath(PlayerDeathEvent event) {
         Player p = event.getEntity();
