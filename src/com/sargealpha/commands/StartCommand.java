@@ -4,7 +4,6 @@ import com.sargealpha.DeathListener;
 import com.sargealpha.Main;
 import com.sargealpha.Swapper;
 import org.bukkit.*;
-import org.bukkit.event.*;
 import org.bukkit.command.*;
 import org.bukkit.entity.*;
 

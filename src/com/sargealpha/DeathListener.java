@@ -1,5 +1,6 @@
 package com.sargealpha;
 
+import org.bukkit.*;
 import org.bukkit.entity.*;
 import org.bukkit.event.entity.*;
 import org.bukkit.event.*;
@@ -23,6 +24,7 @@ public class DeathListener implements Listener {
     @EventHandler
     public void onDeath(PlayerDeathEvent event) {
         Player p = event.getEntity();
+        p.sendMessage(ChatColor.GRAY + "You died XDDDD"); // DEBUG
         if (swapper.isGameRunning() && swapper.isPlayerParticipating(p)) {
             swapper.updateStatus(p, true);
         }

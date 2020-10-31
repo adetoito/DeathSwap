@@ -1,5 +1,8 @@
-package com.sargealpha;
+package com.sargealpha.tasks;
 
+import com.sargealpha.GameCase;
+import com.sargealpha.Main;
+import com.sargealpha.Swapper;
 import org.bukkit.scheduler.*;
 
 public class SwapTask extends BukkitRunnable {

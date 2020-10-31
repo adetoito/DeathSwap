@@ -9,3 +9,5 @@ commands:
     description: Starts Death Swap.
   dsend:
     description: Forces a Death Swap session to end.
+  dsdebug:
+    description: Debug tool.

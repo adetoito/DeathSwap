@@ -1,5 +1,6 @@
 package com.sargealpha;
 
+import com.sargealpha.tasks.SwapTask;
 import org.bukkit.*;
 import org.bukkit.entity.*;
 import org.bukkit.scheduler.*;
@@ -9,7 +10,7 @@ import java.util.*;
 public class Swapper {
 
     // Constants
-    private static final int TIME_PER_ROUND = 300; // 60 = 1 minute
+    public static final int TIME_PER_ROUND = 300; // 60 = 1 minute
 
     // Base Information
     private Main plugin;
